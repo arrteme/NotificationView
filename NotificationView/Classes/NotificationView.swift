@@ -179,6 +179,7 @@ public class NotificationView: NSObject {
         return self.bannerView.iconImageView
     }
     
+
     /// An UILabel that displays the AppName text.
     public var appNameLabel: UILabel {
         return self.bannerView.appNameLabel
@@ -213,7 +214,7 @@ public class NotificationView: NSObject {
     // MARK: Private Properties
     
     /// NotificationBannerView
-    private lazy var bannerView: NotificationBannerView = {
+    public lazy var bannerView: NotificationBannerView = {
         return NotificationBannerView(self)
     }()
     
