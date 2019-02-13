@@ -29,7 +29,7 @@ protocol NotificationBannerViewDelegate: class {
 
 
 // NotificationBannerView
-class NotificationBannerView: UIView {
+open class NotificationBannerView: UIView {
     
     // MARK: deinit
     deinit {
